@@ -13,7 +13,7 @@ async def finish(_):
 from handlers import client, anketa
 
 client.reg_client_handlers(dp)
-admin.register_handlers_zayava(dp)
+anketa.register_handlers_zayava(dp)
 
 
 if __name__ == '__main__':
